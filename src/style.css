@@ -1,1 +1,50 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  border-radius: 8px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  color: black;
+}
+
+.top-left-icon,
+.bottom-right-icon {
+  position: absolute;
+  font-size: 24px;
+  color: black;
+  font-size: 48px;
+}
+
+.top-left-icon {
+  top: 10px;
+  left: 10px;
+  font-size: 48px;
+}
+
+.bottom-right-icon {
+  bottom: 10px;
+  right: 10px;
+  font-size: 48px;
+}
+.number {
+  font-size: 72px;
+}
+.top-left-icon.heart,
+.bottom-right-icon.heart {
+  color: red;
+}
